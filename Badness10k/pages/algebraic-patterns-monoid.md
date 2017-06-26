@@ -8,8 +8,8 @@ Definition
 ------------
 
 The **Monoid** pattern is simply the combination of the two patterns
-[Identity Element](2016-06-29-functional-patterns-identity-element.html)
-and [Semigroup](./2016-07-14-functional-patterns-semigroup.html). A
+[Identity Element](/2016-06-29-functional-patterns-identity-element.html)
+and [Semigroup](/2016-07-14-functional-patterns-semigroup.html). A
 monoid therefore is a datatype with composition `⊗` and element `e`,
 satisfying
 

@@ -23,7 +23,7 @@ const options = {
   ],
   headerFontFamily: ['Patua One', 'serif'],
   bodyFontFamily: ['Alegreya', 'serif'],
-  baseFontSize: '18px',
+  baseFontSize: '20px',
   baseLineHeight: 1.65,
   scaleRatio: 2.25,
   plugins: [

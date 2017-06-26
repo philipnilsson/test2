@@ -102,14 +102,42 @@ h1, h2, h3, h4 {
     font-weight: 400
 }
 
-h1 {
+.header {
+    text-align: center;
+    padding: 4em 0;
+}
+
+.header h1 {
+    margin-bottom: .3em;
+}
+
+.markdown img {
+    max-width: 25rem;
+}
+
+.headroom-wrapper h2 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    color: white;
+}
+
+.headroom-wrapper {
+    height: inherit !important;
+}
+
+.figure {
     text-align: center;
 }
 
-h1:first-of-type {
-    padding: 2em 0;
+#footer {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0;
+    align-items: center;
 }
 
-h1 {
-    color: red !important
+#footer a {
+    font-size: 80%;
+    padding-bottom: .8em;
 }

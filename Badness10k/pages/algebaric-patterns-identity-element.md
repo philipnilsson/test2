@@ -35,17 +35,23 @@ glasses. We will call this operation **pour**, and define it as taking
 two glasses and pouring their contents into a new identical
 container.
 
-![](/images/pour.png)
+<div class="figure">
+  <img src="/images/pour.png" />
+</div>
 
 Equipped with this operation, we can find a property fulfilled by the
 empty glass and the empty glass alone: Pouring the contents of the
 empty glass into another glass leaves the other glass unchanged.
 
-![](/images/empty2.png)
+<div class="figure">
+  <img src="/images/empty2.png" />
+</div>
 
 and similarly, pouring the contents of any glass into the empty glass
 
-![](/images/empty1.png)
+<div class="figure">
+  <img src="/images/empty1.png" />
+</div>
 
 Formally, we can write this as the following pair of equations, where
 `x` represents any arbitrary glass.

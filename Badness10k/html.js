@@ -21,6 +21,7 @@ module.exports = class Html extends React.Component {
             <html lang="en">
               <head>
               <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"/>
+              <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
               <meta charSet="utf-8" />
               <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
               <meta name="viewport" content="width=device-width, initial-scale=1.0" />

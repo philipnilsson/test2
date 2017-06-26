@@ -37,15 +37,18 @@ problems? It turns out that it is easy to do so, by introducing a
 simple requirement on the method of composition. The key observation
 is that composition of puzzle pieces satisfy the following rule.
 
-![](/images/puzzle-pieces.png)
+<div class="figure">
+  <img src="/images/puzzle-pieces.png" />
+</div>
 
 That is, given three puzzle pieces, these can be put together in two
 different ways, starting by combining the first and second, or staring
 with the second and third. Either way the final result is required
 to be the same.
 
-![](/images/pieces-composed.png)
-
+<div class="figure">
+  <img src="/images/pieces-composed.png" />
+</div>
 
 A method of composition satisfying the above constraint is said to be
 *associative*. For a larger set of puzzle pieces the associativity law

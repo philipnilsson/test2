@@ -267,8 +267,7 @@ do
 The State Monad provides purely functional state without references,
 allowing for many useful higher-order operations on state, such as
 easily serializing the state or implementing functions such as
-`excursion`. <a
-href="https://gist.github.com/philipnilsson/f06f052fbea28a4f7e6b3cd3f8a07377"></a>,
+`excursion`. <a href="https://gist.github.com/philipnilsson/f06f052fbea28a4f7e6b3cd3f8a07377"></a>,
 similar to what be accomplished in principled state management
 libraries such as Redux.
 
