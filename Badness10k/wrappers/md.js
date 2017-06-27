@@ -27,15 +27,18 @@ module.exports = React.createClass({
   render () {
     const post = this.props.route.page.data
     const date = formatDate(new Date(this.props.route.page.data.date));
+
     return (
       <div className="markdown">
         <Helmet
           title={`${config.siteTitle} | ${post.title}`}
         />
+        { this.props.route.page.path === "/404.html" ? null :
         <div className="header">
-        <h1>{post.title}</h1>
-        <span>Posted on {date}</span>
-        </div>
+          <h1>{post.title}</h1>
+          <span>Posted on {date}</span>
+            </div>
+        }
 
         <div dangerouslySetInnerHTML={{ __html: post.body }} />
       </div>
