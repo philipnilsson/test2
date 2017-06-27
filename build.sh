@@ -1,6 +1,6 @@
 git checkout gh-pages
 cd Badness10k
-node run build
+npm run build
 cd ..
 cp -r Badness10k/public/ .
 git add .
